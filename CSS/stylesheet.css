@@ -3,3 +3,53 @@ body{
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: 45px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+.half-width h1 {
+    text-transform: capitalize;
+
+}
+.name-highlight{
+    color: orange;
+}
+p{
+    font-size: 16px;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    margin-top: 40px;
+}
+.button a{
+    background-color: orange;
+    padding: 11px 35px;
+    border-radius: 50px;  
+}
+
+.half-width a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.shape{
+    height: 500px;
+    background-image: url("../images/shapes/7.png");  
+    background-position: left;
+}
+.img-back img{
+    width: 58%;
+    padding: 60px;
+
+}
